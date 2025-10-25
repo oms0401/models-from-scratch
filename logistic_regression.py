@@ -17,7 +17,7 @@ class LogisticRegression:
 
         # gradient descent
         for _ in range(self.n_iters):
-            # approximate y with linear combination of weights and x, plus bias
+           
             linear_model = np.dot(X, self.weights) + self.bias
             # apply sigmoid function
             y_predicted = self._sigmoid(linear_model)
